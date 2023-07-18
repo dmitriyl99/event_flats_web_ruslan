@@ -9679,7 +9679,7 @@ s=4
 return A.p(A.cs(null,t.H),$async$yJ)
 case 4:s=5
 return A.p(A.z8(),$async$yJ)
-case 5:A.uB(A.tY("http://localhost:5000/api/v1/auth/",null,!0,B.bO))
+case 5:A.uB(A.tY("http://164.92.88.167/api/v1/auth/",null,!0,B.bO))
 p=$.jl!=null?"/home":"/login"
 if($.aE==null)A.aF2()
 q=$.aE
@@ -28241,7 +28241,7 @@ return"\u043a\u0432\u0430\u0440\u0442\u0438\u0440"},
 yG(){var s=0,r=A.w(t.b5),q,p,o,n
 var $async$yG=A.r(function(a,b){if(a===1)return A.t(b,r)
 while(true)switch(s){case 0:p=t.z
-n=A.uB(A.tY("http://localhost:5000/api/v1/",A.ai(["Accept","application/json"],t.N,p),null,B.bO))
+n=A.uB(A.tY("http://164.92.88.167/api/v1/",A.ai(["Accept","application/json"],t.N,p),null,B.bO))
 s=4
 return A.p(A.azD(),$async$yG)
 case 4:s=3
@@ -28255,7 +28255,7 @@ case 1:return A.u(q,r)}})
 return A.v($async$yG,r)},
 aFT(){var s=0,r=A.w(t.Wy),q,p
 var $async$aFT=A.r(function(a,b){if(a===1)return A.t(b,r)
-while(true)switch(s){case 0:A.uB(A.tY("http://localhost:5000/api/v1/auth/",null,!0,B.bO))
+while(true)switch(s){case 0:A.uB(A.tY("http://164.92.88.167/api/v1/auth/",null,!0,B.bO))
 p=$.jl
 if(p==null)throw A.c(new A.j1())
 q=p
@@ -49094,7 +49094,7 @@ A.uZ.prototype={}
 A.qn.prototype={}
 A.xd.prototype={}
 A.Pg.prototype={
-F(a){var s,r,q,p,o,n,m,l,k,j,i=null,h="application/json",g=new A.a2E(A.uB(A.tY("http://localhost:5000/api/v1/auth/",i,!0,B.bO))),f=t.N,e=t.z,d=new A.a2F(A.uB(A.tY("http://localhost:5000/api/v1/flats",A.ai(["Accept",h],f,e),i,B.bO)),g),c=new A.amb(A.uB(A.tY("http://localhost:5000/api/v1/admin/users",A.ai(["Accept",h],f,e),i,B.bO)),g)
+F(a){var s,r,q,p,o,n,m,l,k,j,i=null,h="application/json",g=new A.a2E(A.uB(A.tY("http://164.92.88.167/api/v1/auth/",i,!0,B.bO))),f=t.N,e=t.z,d=new A.a2F(A.uB(A.tY("http://164.92.88.167/api/v1/flats",A.ai(["Accept",h],f,e),i,B.bO)),g),c=new A.amb(A.uB(A.tY("http://164.92.88.167/api/v1/admin/users",A.ai(["Accept",h],f,e),i,B.bO)),g)
 e=A.SN(B.a3,i)
 s=$.i3()
 r=A.aDk($.aCs(),i,i,i,i,i,i,i,i,i,i,A.a6(i,i,B.q,i,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i,i,i,i,i,i,i,i)
